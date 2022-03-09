@@ -1,0 +1,206 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+img{width: 100%;}
+
+.header h1 span {color: #FFAD5A}
+.header h1{
+    font-size: 53px;
+    border-left: 5px solid red;
+    padding-left: 20px;
+}
+.heroAreaLeft p{
+    color: #3E3E3E;
+}
+.header {
+	overflow: hidden;
+    padding: 20px;
+    margin: 0px 60px;
+}
+
+.heroAreaLeft{width: 50%; float: left; margin-top: 80px;}
+.HeroImage{width: 50%; float: right}
+.HeroImage img {
+    width: 450px; 
+  }
+  .heroAreaLeft p{
+      font-size: 18px;
+      padding: 5px;
+      line-height: 1.6;
+  }
+  .btn {
+	text-decoration: none;
+	display: inline-block;
+	background: linear-gradient(red, violet);
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+.littleText { 
+	margin-top: 25px;
+}
+
+/* ======================
+========== portfolio ======
+==========================*/
+
+
+.portfolio {
+	margin: 0px 60px;
+	text-align: center;
+	overflow: hidden;
+}
+.portfolio h1{color: violet; font-size:48px;}
+.portfolio h1 span{color: #FFAD5A}
+.portfolio img{width: 110px;}
+.box1{background-color: #EDF5F6;}
+.box2{background-color: #FFEEEE;}
+.box3{background-color: #FFF4D6;}
+ 
+.single-portfolio {
+	padding: 20px;
+	float: left;
+	margin-right: 4%;
+	width: 20%;
+	text-align: left;
+	border-radius: 20px;
+}
+.single-portfolio.box1 {
+	margin-left: 90px;
+}
+
+/* ======================
+========== developSection ======
+==========================*/
+
+.developSection{
+    margin: 40px 60px;
+     overflow: hidden;
+}
+.developSection .image img{width: 400px;}
+.developSection .image{
+    width: 30%; float: left; 
+    padding-left: 150px;
+    background-image: url(images/shapes/shape-1.png);
+    background-position: left;
+    background-size: cover; 
+    height: 400px;
+}
+
+
+.developContent {
+	width: 50%;
+	float: right;
+}
+.image {
+    margin-top: 70px;
+}
+
+.developContent{
+    margin-top: 80px;
+}
+.developSection p, .GlobalCommunity p{
+    padding-right: 150px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+.developSection h1, .GlobalCommunity h1 {
+	font-size: 42px;
+} 
+
+/* ======================
+========== GlobalCommunity ======
+==========================*/
+.GlobalCommunity{
+    overflow:hidden; 
+    margin: 60px 60px 30px;
+}
+.GlobalCommunity h1{margin-top: 60px;}
+ .globalLeft{
+     width: 50%;
+     float: left;
+ }
+.globalRight{
+    float: right;
+    width: 50%;
+}
+.globalRight img{width: 70%; display: block; margin: 0 auto;}
+
+.globalRight p {padding-right: 65px !important;}
+
+.globalRight {
+    /*! padding-right: 1px; */
+    background-image: url(images/shapes/shape-1.png);
+    background-position: left;
+    background-size: cover;
+    height: 400px;
+  }
+  .globalRight img {
+    padding-right: 183px;
+  }
+  
+/* ======================
+========== teamMember ======
+==========================*/
+.teamMember {
+    padding: 30px 90px;
+    overflow: hidden;
+  }
+  .teamMember h1 {
+    color: violet;
+    font-size: 48px;
+    text-align: center;
+  }
+  .teamMember h1 span {
+    color: #FFAD5A;
+  }
+  .singleTeamMember {
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+  }
+  .singleTeamMember img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  
+.singleTeamMember p {
+    font-size: 16px; 
+    color: violet;
+    text-align: center;
+  }
+  
+  .singleTeamMember h5 {
+	font-size: 20px;
+	text-align: center;
+	line-height: 1;
+}
+
+.singleTeamMember .btn { 
+	display: block;
+	text-align: center;
+	width: 30%;
+	margin: 0 auto;
+}
+
+
+/* ======================
+========== footer ======
+==========================*/
+footer {
+    text-align: center;
+    padding: 30px;
+    background: black;
+    color: #fff;
+    margin-top: 50px;
+  }
+  footer h3{
+    font-size: 26px;
+    font-weight: 700;
+  }
+  footer h3 span{
+    color: red;
+  }
